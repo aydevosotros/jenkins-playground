@@ -1,7 +1,7 @@
 pipeline {
-//     agent {
+    agent {
 //         label 'docker-engine'
-//     }
+    }
     options {
         timeout(time: 1, unit: 'HOURS')
     }
