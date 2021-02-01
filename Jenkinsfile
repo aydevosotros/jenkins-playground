@@ -18,7 +18,7 @@ pipeline {
                     } else {
                         def environment_tag = 'pre'
                     }
-                    echo "${env.GIT_COMMIT}"
+                    echo "We are on $BRANCH_NAME"
                     echo "And the full env is: ${env}"
                 }
             }
